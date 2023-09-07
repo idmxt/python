@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>chapter_2</title>
+</head>
+
+<body>
+	<form action="#" method="post" enctype="multipart/form-data">
+
+		<div>
+			<p>Name</p>
+			<input placeholder="user name" tabindex="1" type="text" name="username">
+		</div>
+		<div>
+			<p>Password</p>
+			<input placeholder="password" tabindex="2" type="password" name="password">
+		</div>
+		<div>
+			<p>Tel</p>
+			<input placeholder="numbers" tabindex="3" type="tel" name="tel">
+		</div>
+		<div>
+			<p>Sex</p>
+			<div>
+				<input checked type="radio" tabindex="4" name="gender" value="male" /> Male
+			</div>
+			<div>
+				<input type="radio" tabindex="4" name="gender" value="female" /> Female
+			</div>
+		</div>
+		<div>
+			<p>Checkbox</p>
+			<div>
+				<input checked type="checkbox" tabindex="5" name="bike" id="" value="yes"> bike
+			</div>
+			<div>
+				<input type="checkbox" tabindex="6" name="car" id="" value="yes"> car
+			</div>
+			<div>
+				<input disabled type="checkbox" tabindex="7" name="house" id="" value="yes"> house
+			</div>
+		</div>
+		<div>
+			<p>Info</p>
+			<textarea name="text" tabindex="8"></textarea>
+		</div>
+		<div>
+			<p>Photo</p>
+			<input type="file" tabindex="9">
+		</div>
+		<div>
+			<p>colors</p>
+			<select name="color" tabindex="10">
+				<option value="red">red</option>
+				<option value="blue">blue</option>
+				<option selected value="black">black</option>
+			</select>
+		</div>
+		<div>
+			<p>last</p>
+			<button type="submit" tabindex="11">Send</button>
+			<button type="reset" tabindex="12">reset</button>
+		</div>
+	</form>
+</body>
+
+</html>
